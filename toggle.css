@@ -46,7 +46,7 @@ body {
 	border-radius: 100%;
 	box-shadow: 
 	/*0 2px 3px rgba(0, 0, 0, 0.3),*/
-	inset -3px -1px 5px rgba(0, 0, 0, 0.3);
+	inset 3px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .toggle-button:checked + label::before {
@@ -56,5 +56,5 @@ body {
 .toggle-button:checked + label::after {
 	margin-left: 29px;
 	background-color: #009E00;
-	transform: rotate(180deg);
+	transform: rotate(360deg);
 }
