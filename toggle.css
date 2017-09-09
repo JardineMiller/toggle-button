@@ -20,6 +20,7 @@ body {
 	cursor: pointer;
 	outline: none;
 	user-select: none;
+	margin: 10px 0;
 }
 
 .toggle-button + label::before,
@@ -45,8 +46,8 @@ body {
 	background-color: #D4145A;
 	border-radius: 100%;
 	box-shadow: 
-	/*0 2px 3px rgba(0, 0, 0, 0.3),*/
-	inset 3px 1px 5px rgba(0, 0, 0, 0.3);
+	/*-3px -2px 4px rgba(0, 0, 0, 0.15),*/
+	inset 3px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .toggle-button:checked + label::before {
@@ -56,5 +57,16 @@ body {
 .toggle-button:checked + label::after {
 	margin-left: 29px;
 	background-color: #009E00;
-	transform: rotate(360deg);
+	transform: rotate(180deg);
+}
+
+
+.checkbox {
+	height: 30px;
+	width: 30px;
+	background-color: #D4145A;
+}
+
+.checkbox:checked {
+	background-color: #009E00;
 }
