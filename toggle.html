@@ -11,6 +11,8 @@
 <body>
 	<div class="container">
 
+	<form>
+
 		<h1>Toggle buttons</h1>
 
 		<input type="checkbox" id="toggle" checked>
@@ -27,14 +29,19 @@
 
 		<h1>Radio Buttons</h1>
 		
-		<input type="radio" id="radio1">
+		<input type="radio" id="radio1" name="test">
 		<label for="radio1"></label>
 
-		<input type="radio" id="radio2">
+		<input type="radio" id="radio2" name="test">
 		<label for="radio2"></label>
 
-		<input type="radio" id="radio3" disabled>
+		<input type="radio" id="radio3" disabled name="test">
 		<label for="radio3"></label>
+
+		<input type="radio" id="radio3" checked disabled name="test">
+		<label for="radio3"></label>
+
+	</form>
 
 	</div>
 </body>
